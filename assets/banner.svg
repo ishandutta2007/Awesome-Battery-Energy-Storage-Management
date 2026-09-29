@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="50%" stop-color="#1c2541" />
+      <stop offset="100%" stop-color="#3a506b" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="50%" stop-color="#00bbf9" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+
+    <linearGradient id="batteryPulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39ff14">
+        <animate attributeName="stop-color" values="#39ff14;#00f5d4;#39ff14" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00bbf9">
+        <animate attributeName="stop-color" values="#00bbf9;#7000ff;#00bbf9" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Background Wave Paths (Behind Text) -->
+  <g opacity="0.25">
+    <path d="M0,200 Q300,120 600,220 T1200,180 V320 H0 Z" fill="#00f5d4">
+      <animate attributeName="d" values="M0,200 Q300,120 600,220 T1200,180 V320 H0 Z; M0,220 Q300,260 600,160 T1200,220 V320 H0 Z; M0,200 Q300,120 600,220 T1200,180 V320 H0 Z" dur="8s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,240 Q400,180 800,260 T1200,210 V320 H0 Z" fill="#7000ff">
+      <animate attributeName="d" values="M0,240 Q400,180 800,260 T1200,210 V320 H0 Z; M0,210 Q400,280 800,190 T1200,250 V320 H0 Z; M0,240 Q400,180 800,260 T1200,210 V320 H0 Z" dur="10s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Battery Energy Dynamic Indicator Icon (Right side background element) -->
+  <g transform="translate(980, 80)" opacity="0.8">
+    <rect x="0" y="0" width="140" height="160" rx="16" fill="none" stroke="#00f5d4" stroke-width="6" filter="url(#glow)" />
+    <rect x="45" y="-16" width="50" height="16" rx="4" fill="#00f5d4" />
+    <!-- Battery Charge Level Animation -->
+    <rect x="12" y="12" width="116" height="136" rx="10" fill="url(#batteryPulse)">
+      <animate attributeName="height" values="20;136;20" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="128;12;128" dur="5s" repeatCount="indefinite" />
+    </rect>
+    <!-- Lightning Bolt -->
+    <path d="M75,35 L45,85 H68 L60,125 L95,75 H72 Z" fill="#ffffff" filter="url(#glow)" />
+  </g>
+
+  <!-- Foreground Title and Subtitle -->
+  <g transform="translate(60, 110)">
+    <!-- Decorative Tag Pill -->
+    <rect x="0" y="-45" width="310" height="34" rx="17" fill="#1c2541" stroke="#00f5d4" stroke-width="1.5" />
+    <text x="15" y="-23" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="14" fill="#00f5d4" letter-spacing="1">⚡ AWESOME BESS MANAGEMENT</text>
+
+    <!-- Main Heading -->
+    <text x="0" y="30" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="-0.5">
+      Awesome Battery Energy Storage
+    </text>
+
+    <!-- Gradient Sub-Heading -->
+    <text x="0" y="75" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="34" fill="url(#accentGrad)">
+      Management Ecosystem &amp; Software
+    </text>
+
+    <!-- Subtitle Text -->
+    <text x="0" y="120" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="18" fill="#a0aec0">
+      Curated BESS Optimization Platforms, Battery Analytics, BMS Firmware &amp; Energy Storage Tools
+    </text>
+  </g>
+</svg>
