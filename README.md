@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Battery-Energy-Storage-Management?style=social" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Battery-Energy-Storage-Management?style=social" alt="GitHub_Stars" />
   <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Battery-Energy-Storage-Management?style=social" alt="GitHub forks" />
   <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Battery-Energy-Storage-Management" alt="Last Commit" />
   <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Battery-Energy-Storage-Management" alt="License" />
@@ -64,42 +64,42 @@ Welcome to the ultimate developer and engineer resource for **Battery Energy Sto
 
 ## 💻 Open-Source GitHub Projects
 
-Sorted by GitHub Stars 🌟 (Descending).
+Sorted by GitHub_Stars 🌟 (Descending).
 
-- **[PyBaMM](https://github.com/pybamm-team/PyBaMM)** [![Star Badge](https://img.shields.io/github/stars/pybamm-team/PyBaMM?style=social&color=white)](https://github.com/pybamm-team/PyBaMM/stargazers)  
+- **[PyBaMM](https://github.com/pybamm-team/PyBaMM)** [![Stars_Badge](https://img.shields.io/github/stars/pybamm-team/PyBaMM?style=social&color=white)](https://github.com/pybamm-team/PyBaMM/stargazers)  
   *Python Battery Mathematical Modelling (PyBaMM) solves physics-based electrochemical battery models. Widely used for simulating BESS cell performance, degradation, thermal management, and SOC/SOH estimation.*
 
-- **[EMHASS](https://github.com/davidusb-geek/emhass)** [![Star Badge](https://img.shields.io/github/stars/davidusb-geek/emhass?style=social&color=white)](https://github.com/davidusb-geek/emhass/stargazers)  
+- **[EMHASS](https://github.com/davidusb-geek/emhass)** [![Stars_Badge](https://img.shields.io/github/stars/davidusb-geek/emhass?style=social&color=white)](https://github.com/davidusb-geek/emhass/stargazers)  
   *Energy Management for Home Assistant with advanced battery and power management. Features intermediate battery SoC targets, battery-first priority, PV curtailment scheduling, and battery health preservation.*
 
-- **[foxBMS 2](https://github.com/foxBMS/foxbms-2)** [![Star Badge](https://img.shields.io/github/stars/foxBMS/foxbms-2?style=social&color=white)](https://github.com/foxBMS/foxbms-2/stargazers)  
+- **[foxBMS 2](https://github.com/foxBMS/foxbms-2)** [![Stars_Badge](https://img.shields.io/github/stars/foxBMS/foxbms-2?style=social&color=white)](https://github.com/foxBMS/foxbms-2/stargazers)  
   *The premier modular open-source BMS development platform certified by OSHWA. Universal hardware & software platform for controlling modern electrical energy storage systems of any size (Lithium-Ion, Solid State, Sodium-Ion, Redox-Flow).*
 
-- **[LibreSolar BMS](https://github.com/LibreSolar)** [![Star Badge](https://img.shields.io/github/stars/LibreSolar/bms-firmware?style=social&color=white)](https://github.com/LibreSolar/bms-firmware/stargazers)  
+- **[LibreSolar BMS](https://github.com/LibreSolar)** [![Stars_Badge](https://img.shields.io/github/stars/LibreSolar/bms-firmware?style=social&color=white)](https://github.com/LibreSolar/bms-firmware/stargazers)  
   *Open-source hardware and Zephyr RTOS firmware for battery management systems and solar MPPT charge controllers. Supports 5-15 Li-ion cells with TI bq769x0 frontends.*
 
-- **[bjpirt/pyBMS](https://github.com/bjpirt/pyBMS)** [![Star Badge](https://img.shields.io/github/stars/bjpirt/pyBMS?style=social&color=white)](https://github.com/bjpirt/pyBMS/stargazers)  
+- **[bjpirt/pyBMS](https://github.com/bjpirt/pyBMS)** [![Stars_Badge](https://img.shields.io/github/stars/bjpirt/pyBMS?style=social&color=white)](https://github.com/bjpirt/pyBMS/stargazers)  
   *MicroPython-based BMS implementation for DIY home energy storage systems and EV battery pack monitoring.*
 
-- **[ShepherdBMS](https://github.com/Northeastern-Electric-Racing/Shepherd-BMS)** [![Star Badge](https://img.shields.io/github/stars/Northeastern-Electric-Racing/Shepherd-BMS?style=social&color=white)](https://github.com/Northeastern-Electric-Racing/Shepherd-BMS/stargazers)  
+- **[ShepherdBMS](https://github.com/Northeastern-Electric-Racing/Shepherd-BMS)** [![Stars_Badge](https://img.shields.io/github/stars/Northeastern-Electric-Racing/Shepherd-BMS?style=social&color=white)](https://github.com/Northeastern-Electric-Racing/Shepherd-BMS/stargazers)  
   *From-scratch Battery Management System application developed by Northeastern Electric Racing. Features custom BMS firmware integrated with Analog Devices ADBMS AFEs.*
 
-- **[battery-degradation-prognosis](https://github.com/pnnl/battery-degradation-prognosis)** [![Star Badge](https://img.shields.io/github/stars/pnnl/battery-degradation-prognosis?style=social&color=white)](https://github.com/pnnl/battery-degradation-prognosis/stargazers)  
+- **[battery-degradation-prognosis](https://github.com/pnnl/battery-degradation-prognosis)** [![Stars_Badge](https://img.shields.io/github/stars/pnnl/battery-degradation-prognosis?style=social&color=white)](https://github.com/pnnl/battery-degradation-prognosis/stargazers)  
   *Tool for long-term prognosis of redox flow battery parameter degradation using Transformer-based deep learning time-series models. Developed by Pacific Northwest National Laboratory (PNNL).*
 
-- **[BatPar](https://github.com/BatParDevleperTeam/BatPar)** [![Star Badge](https://img.shields.io/github/stars/BatParDevleperTeam/BatPar?style=social&color=white)](https://github.com/BatParDevleperTeam/BatPar/stargazers)  
+- **[BatPar](https://github.com/BatParDevleperTeam/BatPar)** [![Stars_Badge](https://img.shields.io/github/stars/BatParDevleperTeam/BatPar?style=social&color=white)](https://github.com/BatParDevleperTeam/BatPar/stargazers)  
   *Open-source battery parameterization toolkit with comprehensive user and developer manuals facilitating BMS modeling and parameter estimation.*
 
-- **[PolynomialSoH](https://github.com/iitis/PolynomialSoH)** [![Star Badge](https://img.shields.io/github/stars/iitis/PolynomialSoH?style=social&color=white)](https://github.com/iitis/PolynomialSoH/stargazers)  
+- **[PolynomialSoH](https://github.com/iitis/PolynomialSoH)** [![Stars_Badge](https://img.shields.io/github/stars/iitis/PolynomialSoH?style=social&color=white)](https://github.com/iitis/PolynomialSoH/stargazers)  
   *Interpretable machine learning framework for battery State of Health (SoH) estimation using sensor data and resistance readings.*
 
-- **[QuESt PCM](https://www.sandia.gov/ess/tools-resources/quest/quest-grid-planning-toolbox/pcm)** [![Star Badge](https://img.shields.io/badge/Sandia-QuESt-lightgrey?style=social&color=white)](https://www.sandia.gov/ess/)  
+- **[QuESt PCM](https://www.sandia.gov/ess/tools-resources/quest/quest-grid-planning-toolbox/pcm)** [![Stars_Badge](https://img.shields.io/badge/Sandia-QuESt-lightgrey?style=social&color=white)](https://www.sandia.gov/ess/)  
   *Open-source power system production cost modeling tool from Sandia National Laboratories. Provides high-fidelity representation of energy storage systems with cost-optimal dispatch.*
 
-- **[GridFlexPy](https://ieeexplore.ieee.org/abstract/document/11297666)** [![Star Badge](https://img.shields.io/badge/IEEE-GridFlexPy-lightgrey?style=social&color=white)](https://ieeexplore.ieee.org/abstract/document/11297666)  
+- **[GridFlexPy](https://ieeexplore.ieee.org/abstract/document/11297666)** [![Stars_Badge](https://img.shields.io/badge/IEEE-GridFlexPy-lightgrey?style=social&color=white)](https://ieeexplore.ieee.org/abstract/document/11297666)  
   *Open-source Python framework for power flow analysis and BESS operation in microgrids integrated with OpenDSS.*
 
-- **[PyPESOL](https://dl.acm.org/doi/full/10.1145/3679240.3734691)** [![Star Badge](https://img.shields.io/badge/ACM-PyPESOL-lightgrey?style=social&color=white)](https://dl.acm.org/doi/full/10.1145/3679240.3734691)  
+- **[PyPESOL](https://dl.acm.org/doi/full/10.1145/3679240.3734691)** [![Stars_Badge](https://img.shields.io/badge/ACM-PyPESOL-lightgrey?style=social&color=white)](https://dl.acm.org/doi/full/10.1145/3679240.3734691)  
   *Python P2P Energy Sharing Optimization Library for cost optimization in peer-to-peer energy sharing scenarios with battery/PV capacity modeling.*
 
 ---
@@ -108,7 +108,7 @@ Sorted by GitHub Stars 🌟 (Descending).
 
 1. 🍴 Fork the repository.
 2. 📝 Add/edit entries in `README.md` (following the established markdown table and badge format).
-3. 📌 Include project name, official URL/repository link, description, and star count/pricing details.
+3. 📌 Include project name, official URL/repository link, description, and Stars_Count/pricing details.
 4. 🚀 Submit a Pull Request (PR) with a clear summary of your changes.
 
 ---
